@@ -317,9 +317,24 @@ export default function Footer() {
               . Todos los derechos reservados.
             </p>
 
-            <p className="font-bold text-[#f3dfb8]/58">
-              IAT <span style={{ color: colors.secundario }}>U - TIC</span>
-            </p>
+           <div className="flex items-center gap-3">
+              <a
+                href="https://utic.upea.bo/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="group"
+              >
+                <img
+                  src="/LOGOUTIC.png"
+                  alt="U-TIC"
+                  className="w-10 h-10 rounded-full object-cover border border-slate-700 hover:scale-110 transition-transform duration-300"
+                />
+              </a>
+
+              <p className="flex items-center gap-1 text-slate-500">
+                IAT U - TIC
+              </p>
+            </div>
           </div>
         </div>
       </footer>
